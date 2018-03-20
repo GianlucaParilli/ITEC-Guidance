@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Systems and Security</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- MetisMenu CSS -->
+	<link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="dist/css/sb-admin-2.css" rel="stylesheet">
+	<!-- Custom Fonts -->
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!-- Our CSS -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<!-- Our JavaScript -->
+	<script src="js/myJavaScript.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="sidenavText">
+					<a href="index.html">Home</a>
+					<a href="softDev.html" style="font-size: 1.2em">Software Development</a>
+					<a href="digitalMedia.html" style="font-size: 1.2em">Digital Media</a>
+					<a href="systemsSecurity.html" style="font-size: 1.2em">System and Security</a>
+					<ul>
+						<a href="softDev.html" style="font-size: 1em">Resources</a>
+						<a href="systemsSecurity/ssCareerOptions.html" style="font-size: 1em">Career Options</a>
+						<a href="systemsSecurity/ssEssentialSkills.html" style="font-size: 1em">Essential Skills</a>
+						<a href="homePages/quiz.html" style="font-size: 1em">Expected Outcomes</a>
+						<a href="homePages/quiz.html" style="font-size: 1em">Major Requirements</a>
+						<a href="homePages/quiz.html" style="font-size: 1em">Certificates</a>
+					</ul>
+					<a href="enterpriseSystem.html" style="font-size: 1.2em">Enterprise Systems</a>
+				</div>
+			</div>
+			<!-- Use any element to open the sidenav -->
+			<div class="jumbotron">
+				<div class="navbar-header">
+					<button type="button" onclick="openNav()" class="navbar-toggle">
+                    <span class="icon-bar" style="background-color: white;"></span>
+                    <span class="icon-bar" style="background-color: white;"></span>
+                    <span class="icon-bar" style="background-color: white;"></span>
+                </button>
+				</div>
+				<div style="display: inline-block">
+					<h1><img style="width: 12%; padding: 2px;" src="image/logo.png">
+						<a class="title" href="index.html" style="color: white;"><strong>ITEC GUIDANCE</strong></a></h1>
+					<p class="subtitle"><strong>Discover Your ITEC Major the First Time Around!</strong></p>
+				</div>
+
+			</div>
+
+			<!-- Mobile menu appears-->
+			<!-- <nav class="navbar navbar-default" role="navigation"></nav> -->
+
+			<div class="nav navbar-default sidebar" role="navigation">
+				<div class="sidebar-nav navbar-collapse">
+					<h2 class="nav-label">Navigation</h2>
+					<ul class="nav" id="side-menu">
+
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'index.html';"><span class="glyphicon glyphicon-home"></span> Home</li>
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'softDev.html';"><span class="
+						glyphicon glyphicon-edit"></span> Software Development</li>
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'digitalMedia.html';"><span class="glyphicon glyphicon-search"></span> Digital media</li>
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'systemsSecurity.html';"><span class="glyphicon glyphicon-question-sign"></span> System and Security</li>
+						<ul>
+							<li button type="button1" class="btn btn-blue nav-button-green" style="font-weight: bold; text-align: left" onclick="location.href = 'systemsSecurity.html';"><span class="glyphicon glyphicon-search"></span> Resources</li>
+
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'systemsSecurity/ssCareerOptions.html';"><span class="glyphicon glyphicon-search"></span> Career Options</li>
+
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'systemsSecurity/ssEssentialSkills.html'"><span class="glyphicon glyphicon-search"></span> Essential Skills</li>
+
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'homePages/quiz.html';"><span class="glyphicon glyphicon-search"></span> Expected Outcomes</li>
+
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'homePages/quiz.html';"><span class="glyphicon glyphicon-search"></span> Major Requirements</li>
+
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'homePages/quiz.html';"><span class="glyphicon glyphicon-search"></span> Certificates</li>
+						</ul>
+						<li button type="button1" class="btn nav-button nav-button-hover" onclick="location.href = 'enterpriseSystem.html';"><span class="glyphicon glyphicon-globe"></span> Enterprise Systems</li>
+					</ul>
+				</div>
+				<!-- /.sidebar-collapse -->
+			</div>
+			<!-- /.navbar-static-side -->
+
+		</header>
+
+		<!-- Page Content -->
+		<div id="page-wrapper">
+			<div class="container-fluid">
+
+				<!-- Row #1: Carousel of Internal Video -->
+				<div class="row">
+					<div class="col-lg-12">
+
+						<!-- Carousel -->
+						<div id="myCarousel" class="carousel slide">
+
+							<!-- Images -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<iframe width="100%" height="100%" name="main-frame" src="https://www.youtube.com/embed/2mh-N9_O_yI" frameborder="0" allow="autoplay=0; encrypted-media" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+						<!-- /.carousel -->
+
+					</div>
+					<!-- /.col-lg-12 -->
+
+				</div>
+				<!-- /.row -->
+
+				<!-- NAV TABS -->
+
+				<ul class="nav nav-pills nav-justified">
+					<li class="active"><a data-toggle="tab" href="#student">Student</a></li>
+					<li><a data-toggle="pill" href="#professor">Professor</a></li>
+					<li><a data-toggle="pill" href="#career">Career</a></li>
+					<li><a data-toggle="pill" href="#resources">Additional Resources</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div id="student" class="tab-pane fade in active">
+						<h3>STUDENT</h3>
+						<!--multipage carousel=======================-->
+						<div id="imageCarousel" class="carousel slide" style="height: 30%;" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#imageCarousel" data-slide-to="1"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active" style="height: 30%;">
+									<div class="row white-bg">
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/FfjuSpK26_c" allow="autoplay" target="main-frame">
+												<p style="color: black">Security Specialist</p>
+												<img src="systemsSecurity/imgs/sst11.png" style="width: 100%;">
+											</a>
+										</div>
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/0ZuHsXwouxo" allow="autoplay" target="main-frame">
+												<p style="color: black">Cyber Forensics</p>
+												<img src="systemsSecurity/imgs/sst12.png" style="width: 100%;">
+											</a>
+										</div>
+
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/w2RLjWKXgVA" allow="autoplay" target="main-frame">
+												<p style="color: black">Keys for Success</p>
+												<img src="systemsSecurity/imgs/sst6.png" style="width: 100%;">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item" style="height: 30%;">
+									<div class="row white-bg">
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/2mh-N9_O_yI" allow="autoplay" target="main-frame">
+												<p style="color: black">What is Cyber security</p>
+												<img src="systemsSecurity/imgs/sst7.png" style="width: 100%;">
+											</a>
+										</div>
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/f7AwaAQvV6U" allow="autoplay" target="main-frame">
+												<p style="color: black">Prepare yourself</p>
+												<img src="systemsSecurity/imgs/sst8.png" style="width: 100%;">
+											</a>
+										</div>
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/2rzp-nnAw8g" allow="autoplay" target="main-frame">
+												<p style="color: black">Cyber Security Careers</p>
+												<img src="systemsSecurity/imgs/sst9.png" style="width: 100%;">
+											</a>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<a class="left carousel-control small-button" href="#imageCarousel" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control small-button" href="#imageCarousel" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!--multipage carousel=======================-->
+
+					</div>
+					<div id="professor" class="tab-pane fade">
+						<h3>Professors</h3>
+						<img class="img-rounded" src="image/underC.jpg" style="width:100%">
+					</div>
+					<div id="career" class="tab-pane fade">
+						<h3>Career</h3>
+						<!--multipage carousel=======================-->
+
+						<div id="imageCarousel1" class="carousel slide" style="height: 30%;" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#imageCarousel" data-slide-to="1"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active" style="height: 30%;">
+									<div class="row white-bg">
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/10464.m4v" target="main-frame">
+												<p style="color: black">Cyber Security</p>
+												<img src="systemsSecurity/imgs/sst1.png" style="width: 100%;">
+											</a>
+										</div>
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/11398.m4v" allow="autoplay" target="main-frame">
+												<p style="color: black">Network Consultant</p>
+												<img src="systemsSecurity/imgs/sst3.png" style="width: 100%;">
+											</a>
+										</div>
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/10457.m4v" allow="autoplay" target="main-frame">
+												<p style="color: black">Identity Specialist</p>
+												<img src="systemsSecurity/imgs/sst2.png" style="width: 100%;">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="item" style="height: 30%;">
+									<div class="row white-bg">
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/11425.m4v" allow="autoplay" target="main-frame">
+												<p style="color: black">Security Specialist</p>
+												<img src="systemsSecurity/imgs/sst4.png" style="width: 100%;">
+											</a>
+										</div>
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/6961.m4v" allow="autoplay" target="main-frame">
+												<p style="color: black">Systems Analyst</p>
+												<img src="systemsSecurity/imgs/sst5.png" style="width: 100%;">
+											</a>
+										</div>
+
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/11996.m4v" allow="autoplay" target="main-frame">
+												<p style="color: black">Cyber Security analyst</p>
+												<img src="systemsSecurity/imgs/sst10.png" style="width: 100%;">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a class="left carousel-control small-button" href="#imageCarousel1" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control small-button" href="#imageCarousel1" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!--multipage carousel=======================-->
+
+					</div>
+					<div id="resources" class="tab-pane fade">
+						<div class="row">
+							<h2>Additional Resources</h2>
+							<div class="col-md-12 card-hover">
+								<div class="card w-100" onclick="window.open(href='https://www.candidcareer.com/channel_detail.php?chid=18&p=industry&shared=GGC&UID=4678', '_blank')" rel="noopener noreferrer">
+									<div class="card-body" style="padding: 5px; cursor: pointer">
+										<h5 class="card-title card-title-placement">Candid Career</h5>
+										<p class="card-text card-font-size">Candid Career offers students a closer look at a specific career subject that they maybe interested in.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 card-hover">
+								<div class="card w-100" onclick="window.open(href='https://networkggc.com', '_blank')" rel="noopener noreferrer">
+									<div class="card-body" style="padding: 5px; cursor: pointer">
+										<h5 class="card-title card-title-placement">Network GGC</h5>
+										<p class="card-text card-font-size">Network GGC is a webiste dedicated on for Students and staff to interconnect. We thrive to emphasie the importance of connecting with people within your concentration to push your professional career to a</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			</div>
+			<!-- /.container-fluid -->
+		</div>
+		<!-- /#page-wrapper -->
+
+		<!-- Footer -->
+		<footer id="footer" class="container-fluid bg-4 text-center">
+		</footer>
+
+	</div>
+	<!-- /#wrapper -->
+
+
+	<script src="vendor/jquery/jquery.min.js"></script>
+
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Metis Menu Plugin JavaScript -->
+	<script src="vendor/metisMenu/metisMenu.min.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="dist/js/sb-admin-2.js"></script>
+
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script>
+		window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+
+	</script>
+
+	<script src="../../dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

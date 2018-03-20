@@ -1,0 +1,409 @@
+/* Website's Body */
+
+#wrapper {
+	background-color: white;
+}
+
+.navbar-default.sidebar {
+	background-color: white;
+}
+
+.nav-label {
+	color: forestgreen;
+	text-align: center;
+	margin: 15px;
+}
+
+
+/* Header */
+
+.jumbotron {
+	background-color: seagreen;
+	color: white;
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.header {
+	margin-bottom: 2.5%
+}
+
+.navbar-default {
+	background-color: white;
+	border-color: white;
+	margin: 0;
+}
+
+.navbar-default.sidebar {
+	background-color: white;
+	margin: 0px;
+}
+
+a:link.title,
+a:visited.title {
+	color: white;
+	text-shadow: 2px 5px black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding-bottom: 0;
+}
+
+.nav-button-hover:hover {
+	background-color: seagreen;
+	color: white;
+}
+
+.nav-button-green {
+	background-color: seagreen;
+	color: white;
+}
+
+.nav-button {
+	font-weight: bold;
+	text-align: left;
+}
+
+.subtitle {
+	color: white;
+	text-shadow: 1px 4px black;
+	font-style: italic;
+	font-size: 1.3em;
+}
+
+
+/* Sidebar */
+
+.sidebar {
+	margin-top: 0;
+}
+
+
+/* Footer */
+
+#footer.container-fluid {
+	margin-top: 2.5%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: seagreen;
+	color: #fff;
+}
+
+
+/*----- pills-----*/
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	color: white;
+	background-color: green!important;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	text-decoration: none;
+	background-color: none !important;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+/* Note: Original height for all carousel was 500px */
+
+.carousel {
+	height: 375px;
+	margin-bottom: 60px;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+	z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+	height: 375px;
+	background-color: #777;
+}
+
+.carousel-inner > .item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 375px;
+}
+
+.carousel .carousel-control {
+	visibility: hidden;
+}
+
+.carousel:hover .carousel-control {
+	visibility: visible;
+}
+
+.small-button {
+	width: 4%;
+}
+
+.card-left {
+	width: 30%;
+	float: left;
+	padding: 0px 10px 10px 10px;
+}
+
+.card-hover:hover {
+	background-color: seagreen;
+	color: white;
+}
+
+.card-font-size {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.card-title-placement {
+	font-size: 1.7em;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.frame-style {
+	width: 80%;
+	height: 10%;
+	background: white;
+}
+
+.white-bg {
+	background: white;
+}
+
+
+/* SIDE NAV MENU
+-------------------------------------------------- */
+
+/* The side navigation menu */
+
+.sidenav {
+	height: 100%;
+	/* 100% Full-height */
+	width: 0;
+	/* 0 width - change this with JavaScript */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Stay on top */
+	top: 0;
+	/* Stay at the top */
+	right: 0;
+	background-color: #66666bed;
+	/* Black*/
+	overflow-x: hidden;
+	/* Disable horizontal scroll */
+	padding-top: 60px;
+	/* Place content 60px from the top */
+	transition: 0.5s;
+	/* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenavText a:hover {
+	color: black;
+	background-color: #7FE3A1;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+	transition: margin-left .5s;
+	padding: 20px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+	.row .white-bg {
+		padding: 20px 20px;
+	}
+}
+
+
+/* Under Construction Img
+-------------------------------------------------- */
+
+#page-wrapper.underConstruction {
+	background-position: center;
+	background-size: contain;
+	background-repeat: space;
+	background-origin: content-box;
+	background-color: burlywood;
+	background-image: url('../image/underConstruction.gif');
+	padding-left: 3em;
+	padding-right: 3em;
+	outline-color: burlywood;
+}
+
+
+/* =============================Nav Tab Sytles ==================== */
+
+.pane-border {
+	border-radius: 0 0 5px 5px;
+	border: solid 2px seagreen;
+}
+
+.pane-min-height {
+	min-height: 200px;
+}
+
+.tab-border {
+	border-radius: 5px 5px 0 0;
+	border: solid 2px seagreen;
+	border-bottom: 0;
+}
+
+
+/* ===================Nav Tab Styles End========================== */
+
+/* Essential Skill Panels
+Source: https://stackoverflow.com/questions/42792108/bootstrap-thumbnails-same-size
+---------------------------------------------- */
+
+.row.display-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.thumbnail {
+	height: 92%;
+}
+
+
+/* Essential Skill Panels Heading
+--------------------------------------------- */
+
+.panel-heading {
+	border: 1px solid #ddd;
+	background: linear-gradient(darkgreen, lightgreen);
+	word-wrap: break-word;
+	color: ghostwhite;
+	text-shadow: 2px 1.5px 0.2px #000;
+	letter-spacing: 0.7px;
+}
+
+/* Career Options CSS
+--------------------------------------------- */
+
+.row.careerOptionsRow {
+
+	/* IE10 */
+	display: inline-block;
+	display: flex;
+
+	/* IE10 */
+	flex-wrap: wrap;
+
+
+}
+
+.row.careerOptionsRow .col {
+	padding: 5px;
+}
+
+.careerOpImg {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#btn-thumb {
+	background-image: url('http://www.w3.org/html/logo/downloads/HTML5_Logo_32.png');
+
+}
+
+#btn-thumb:hover {
+	background-image: url('/systemsSecurity/imgs/sst1.png');
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+/*---career option img hover*/
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: forestgreen;
+}
+
+
+
+.img-container {
+	position: relative;
+	width: 100%;
+}
+
+.img-container:hover .overlay {
+	opacity: 0.9;
+}
+
+
+.careertext {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}

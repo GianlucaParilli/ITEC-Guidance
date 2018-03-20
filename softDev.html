@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Software Development</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- MetisMenu CSS -->
+	<link href="vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="dist/css/sb-admin-2.css" rel="stylesheet">
+	<!-- Custom Fonts -->
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!-- Our CSS -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<!-- Our JavaScript -->
+	<script src="js/myJavaScript.js"></script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="sidenavText">
+					<a href="index.html">Home</a>
+					<a href="softDev.html" style="font-size: 1.2em">Software Development</a>
+					<ul>
+						<a href="softDev.html" style="font-size: 1em">Resources</a>
+						<a href="softDev/sdCareerOptions.html" style="font-size: 1em">Career Options</a>
+						<a href="softDev/sdEssentialSkills.html" style="font-size: 1em">Essential Skills</a>
+						<a data-toggle="modal" data-target="#popUpUnderConstruction" style="font-size: 1em">Expected Outcomes</a>
+						<a data-toggle="modal" data-target="#popUpUnderConstruction" style="font-size: 1em">Major Requirements</a>
+						<a data-toggle="modal" data-target="#popUpUnderConstruction" style="font-size: 1em">Certificates</a>
+					</ul>
+					<a href="digitalMedia.html" style="font-size: 1.2em">Digital Media</a>
+					<a href="homePages/quiz.html" style="font-size: 1.2em">System and Security</a>
+					<a href="homePages/quiz.html" style="font-size: 1.2em">Enterprise Systems</a>
+				</div>
+			</div>
+			<!-- Use any element to open the sidenav -->
+			<div class="jumbotron">
+				<div class="navbar-header">
+					<button type="button" onclick="openNav()" class="navbar-toggle">
+                    <span class="icon-bar" style="background-color: white;"></span>
+                    <span class="icon-bar" style="background-color: white;"></span>
+                    <span class="icon-bar" style="background-color: white;"></span>
+                </button>
+				</div>
+				<div style="display: inline-block">
+					<h1><img style="width: 12%; padding: 2px;" src="image/logo.png">
+						<a class="title" href="index.html" style="color: white;"><strong>ITEC GUIDANCE</strong></a></h1>
+					<p class="subtitle"><strong>Discover Your ITEC Major the First Time Around!</strong></p>
+				</div>
+
+			</div>
+
+			<!-- Mobile menu appears-->
+			<!-- <nav class="navbar navbar-default" role="navigation"></nav> -->
+
+			<div class="nav navbar-default sidebar" role="navigation">
+				<div class="sidebar-nav navbar-collapse">
+					<h2 class="nav-label">Navigation</h2>
+					<ul class="nav" id="side-menu">
+
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'index.html';"><span class="glyphicon glyphicon-home"></span> Home</li>
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'softDev.html';"><span class="
+						glyphicon glyphicon-edit"></span> Software Development</li>
+						<ul>
+							<li button type="button1" class="btn btn-blue nav-button-green" style="font-weight: bold; text-align: left" onclick="location.href = 'softDev.html';"><span class="glyphicon glyphicon-search"></span> Resources</li>
+
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'softDev/sdCareerOptions.html';"><span class="glyphicon glyphicon-search"></span> Career Options</li>
+
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'softDev/sdEssentialSkills.html'"><span class="glyphicon glyphicon-search"></span> Essential Skills</li>
+
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" data-toggle="modal" data-target="#popUpUnderConstruction"><span class="glyphicon glyphicon-search"></span> Expected Outcomes</li>
+
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" data-toggle="modal" data-target="#popUpUnderConstruction"><span class="glyphicon glyphicon-search"></span> Major Requirements</li>
+
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" data-toggle="modal" data-target="#popUpUnderConstruction"><span class="glyphicon glyphicon-search"></span> Certificates</li>
+						</ul>
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'digitalMedia.html';"><span class="glyphicon glyphicon-search"></span> Digital media</li>
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'systemsSecurity.html';"><span class="glyphicon glyphicon-question-sign"></span> System and Security</li>
+						<li button type="button1" class="btn nav-button nav-button-hover" onclick="location.href = 'enterpriseSystem.html';"><span class="glyphicon glyphicon-globe"></span> Enterprise Systems</li>
+					</ul>
+				</div>
+				<!-- /.sidebar-collapse -->
+			</div>
+			<!-- /.navbar-static-side -->
+
+		</header>
+
+		<!-- Page Content -->
+		<div id="page-wrapper">
+			<div class="container-fluid">
+                
+                <center><h1>Software Development</h1></center>
+                <center><h4>Software development is the process of developing high-quality softwares within time, budget, and scope for clients. To produce these products, software developers go through a step by step process known as the software development life cycle (SDLC).</h4></center><br><br>
+
+				<!-- Row #1: Carousel of Internal Video -->
+				<div class="row">
+					<div class="col-lg-12">
+
+						<!-- Carousel -->
+						<div id="myCarousel" class="carousel slide">
+
+							<!-- Images -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<iframe width="100%" height="100%" name="main-frame" src="https://www.youtube.com/embed/pquPUX1EihM?rel=0&amp;start=9" frameborder="0" allow="autoplay=1; encrypted-media" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+						<!-- /.carousel -->
+
+					</div>
+					<!-- /.col-lg-12 -->
+
+				</div>
+				<!-- /.row -->
+
+				<!-- NAV TABS -->
+
+				<ul class="nav nav-pills nav-justified">
+					<li class="active"><a data-toggle="tab" href="#student">Student</a></li>
+					<li><a data-toggle="pill" href="#professor">Professor</a></li>
+					<li><a data-toggle="pill" href="#career">Career</a></li>
+					<li><a data-toggle="pill" href="#resources">Additional Resources</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div id="student" class="tab-pane fade in active">
+						<h3>STUDENT</h3>
+
+						<!--multipage carousel=======================-->
+						<div id="imageCarousel" class="carousel slide" style="height: 30%;" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#imageCarousel" data-slide-to="1"></li>
+								<li data-target="#imageCarousel" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active" style="height: 30%;">
+									<div class="row white-bg">
+                                        
+                                         <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/xoSGg6db6hs?rel=0" target="main-frame">
+                                                <p style="color: black">Software Engineer at Survey Monkey</p>
+												<img src="softDev/imgs/sdt5.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+                                        <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/9S_fnC5jPgw?rel=0&amp;showinfo=0" target="main-frame">
+												<p style="color: black">Software Engineers at Google</p>
+                                                <img src="softDev/imgs/sdt1.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+                                        <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/pquPUX1EihM?rel=0&amp;start=9" target="main-frame">
+												<p style="color: black">What is Software Development</p>
+                                                <img src="softDev/imgs/sdt2.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+									</div>
+								</div>
+                                
+                                <div class="item" style="height: 30%;">
+									<div class="row white-bg">
+										
+                                        <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/fKRK-BBQS_o?rel=0;showinfo=0" target="main-frame">
+                                                <p style="color: black">Jr. Developer at Hyland Software</p>
+												<img src="softDev/imgs/sdt4.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+                                       <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/lfTwqw_gyKs?rel=0&amp;showinfo=0&amp;start=57" target="main-frame">
+                                                <p style="color: black">Why Software Engineer</p>
+												<img src="softDev/imgs/sdt3.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/moUKvLeGtgM?rel=0&amp;start=12" target="main-frame">
+                                                <p style="color: black">Journey to Become a Software Engineer</p>
+												<img src="softDev/imgs/sdt6.png" style="width: 100%;">
+											</a>
+										</div>
+									</div>
+								</div>
+                                
+                                <div class="item" style="height: 30%;">
+									<div class="row white-bg">
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/IoPx_rSicrM?rel=0&amp;start=57" target="main-frame">
+                                                <p style="color: black">Computer Programming</p>
+												<img src="softDev/imgs/sdt7.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+                                        <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/demdap2SzKA?rel=0" target="main-frame">
+                                                <p style="color: black">iOS Software Engineer</p>
+												<img src="softDev/imgs/sdt8.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.youtube.com/embed/_9ZS6q4996g?rel=0&amp;start=72" target="main-frame">
+                                                <p style="color: black">13 Types of Software Developers</p>
+												<img src="softDev/imgs/sdt9.png" style="width: 100%;">
+											</a>
+										</div>
+									</div>
+								</div>
+                       
+							</div>
+							<a class="left carousel-control small-button" href="#imageCarousel" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control small-button" href="#imageCarousel" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!--multipage carousel=======================-->
+
+					</div>
+					<div id="professor" class="tab-pane fade">
+						<h3>PROFESSOR</h3>
+						<center><img class="img-rounded" src="image/underC.jpg" style="width:100%; height: 45vh;"></center>
+                    </div>
+					<div id="career" class="tab-pane fade">
+						<h3>CAREER</h3>
+						
+                        <!--multipage carousel=======================-->
+						<div id="careerImageCarousel" class="carousel slide" style="height: 30%;" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#careerImageCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#careerImageCarousel" data-slide-to="1"></li>
+								<li data-target="#careerImageCarousel" data-slide-to="2"></li>
+                                <li data-target="#careerImageCarousel" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner">
+                                
+                                <div class="item active" style="height: 30%;">
+									<div class="row white-bg">
+                                        
+                                        <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/11645.m4v" target="main-frame">
+                                                <p style="color: black">Technology Support</p>
+												<img src="softDev/imgs/cc_sd_t11.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/7336.m4v" target="main-frame">
+                                                <p style="color: black">Techical Architect</p>
+												<img src="softDev/imgs/cc_sd_t10.png" style="width: 100%;">
+											</a>
+										</div>
+                                    
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/8621.m4v" target="main-frame">
+                                                <p style="color: black">Software Test Manager</p>
+												<img src="softDev/imgs/cc_sd_t12.png" style="width: 100%;">
+											</a>
+										</div>
+									</div>
+								</div>
+                                
+								<div class="item" style="height: 30%;">
+									<div class="row white-bg">
+                                        
+                                         <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/12477.m4v" target="main-frame">
+                                                <p style="color: black">Software Developer</p>
+												<img src="softDev/imgs/cc_sd_t1.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+                                        <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/10991.m4v" target="main-frame">
+												<p style="color: black">Senior Application Developer</p>
+                                                <img src="softDev/imgs/cc_sd_t2.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+                                        <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/11891.m4v" target="main-frame">
+												<p style="color: black">Web Developer</p>
+                                                <img src="softDev/imgs/cc_sd_t3.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+										
+									</div>
+								</div>
+                                
+                                <div class="item" style="height: 30%;">
+									<div class="row white-bg">
+										
+                                        <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/11905.m4v" target="main-frame">
+                                                <p style="color: black">Robot Programmer</p>
+												<img src="softDev/imgs/cc_sd_t4.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+                                       <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/10643.m4v" target="main-frame">
+                                                <p style="color: black">Game Programmer</p>
+												<img src="softDev/imgs/cc_sd_t5.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/12480.m4v" target="main-frame">
+                                                <p style="color: black">Application Development</p>
+												<img src="softDev/imgs/cc_sd_t6.png" style="width: 100%;">
+											</a>
+										</div>
+									</div>
+								</div>
+                                
+                                <div class="item" style="height: 30%;">
+									<div class="row white-bg">
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/6359.m4v" target="main-frame">
+                                                <p style="color: black">CEO of Mobile Roadie</p>
+												<img src="softDev/imgs/cc_sd_t7.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+                                        
+                                        <div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/6589.m4v" target="main-frame">
+                                                <p style="color: black">Staff Consultant</p>
+												<img src="softDev/imgs/cc_sd_t8.png" style="width: 100%;">
+											</a>
+										</div>
+                                        
+										<div class="col-md-4 text-center" style="padding: 10px 40px">
+											<a href="https://www.candidcareer.com/ipodvideo/6961.m4v" target="main-frame">
+                                                <p style="color: black">Systems Analyst</p>
+												<img src="softDev/imgs/cc_sd_t9.png" style="width: 100%;">
+											</a>
+										</div>
+									</div>
+								</div>
+                                
+							</div>
+							<a class="left carousel-control small-button" href="#careerImageCarousel" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control small-button" href="#careerImageCarousel" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+						<!--multipage carousel=======================-->
+                        
+					</div>
+					<div id="resources" class="tab-pane fade">
+						<div class="row">
+							<h2>Additional Resources</h2>
+							<div class="col-md-12 card-hover">
+								<div class="card w-100" onclick="window.open(href='https://www.candidcareer.com/channel_detail.php?chid=18&p=industry&shared=GGC&UID=4678', '_blank')" rel="noopener noreferrer">
+									<div class="card-body" style="padding: 5px; cursor: pointer">
+										<h5 class="card-title card-title-placement">Candid Career</h5>
+										<p class="card-text card-font-size">Candid Career offers students a closer look at a specific career subject that they maybe interested in.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 card-hover">
+								<div class="card w-100" onclick="window.open(href='https://networkggc.com', '_blank')"  rel="noopener noreferrer">
+									<div class="card-body" style="padding: 5px; cursor: pointer">
+										<h5 class="card-title card-title-placement">Network GGC</h5>
+										<p class="card-text card-font-size">Network GGC is a webiste dedicated on for Students and staff to interconnect. We thrive to emphasie the importance of connecting with people within your concentration to push your professional career to a</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+    
+			</div>
+			<!-- /.container-fluid -->
+            
+            <!-- Under Construction Dialog Message -->
+            <div class="modal fade" id="popUpUnderConstruction" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                      
+                      <!-- Title of Under Construction Dialog -->
+                      <div class="modal-header text-center">
+                          <h4 class="modal-title w-100 font-weight-bold">Page Under Construction</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+
+                      <!-- Body of Under Construction Dialog -->
+                      <div class="modal-body mx-3">
+                          <div class="md-form mb-5">
+                              <i class="fa fa-envelope prefix grey-text"></i>
+                              <label data-error="wrong" data-success="right"><strong><u>Oops, this page is under construction!</u></strong></label>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div> <!-- /Under Construction Dialog Message -->
+            
+		</div>
+		<!-- /#page-wrapper -->
+
+		<!-- Footer -->
+		<footer id="footer" class="container-fluid bg-4 text-center">
+		</footer>
+
+	</div>
+	<!-- /#wrapper -->
+
+	<!-- jQuery -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Metis Menu Plugin JavaScript -->
+	<script src="vendor/metisMenu/metisMenu.min.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="dist/js/sb-admin-2.js"></script>
+
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script>
+		window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+
+	</script>
+
+	<script src="../../dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
