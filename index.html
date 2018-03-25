@@ -38,10 +38,10 @@
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<div class="sidenavText">
 					<a href="index.html">Home</a>
-					<a href="homePages/quiz.html">ITEC Major Quiz</a>
+					<a data-toggle="modal" data-target="#popUpUnderConstruction">ITEC Major Quiz</a>
 					<a href="homePages/resources.html">More Resources</a>
-					<a href="homePages/question.html">Submit a Question</a>
-					<a href="homePages/contactUs.html">Contact Us</a>
+					<a data-toggle="modal" data-target="#popUpUnderConstruction">Submit a Question</a>
+					<a data-toggle="modal" data-target="#popUpUnderConstruction">Contact Us</a>
 				</div>
 			</div>
 			<!-- Use any element to open the sidenav -->
@@ -71,13 +71,13 @@
 					<ul class="nav" id="side-menu">
 
 						<li button type="button1" class="btn btn-blue nav-button-green" style="font-weight: bold; text-align: left" onclick="location.href = 'index.html';"><span class="glyphicon glyphicon-home"></span> Home</li>
-						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'homePages/quiz.html'"><span class="
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" data-toggle="modal" data-target="#popUpUnderConstruction"><span class="
 						glyphicon glyphicon-edit"></span> ITEC Major Quiz</li>
 						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'homePages/resources.html'"><span class="
 						glyphicon glyphicon-edit"></span> Additional Resources</li>
-						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'homePages/faq.html';"><span class="glyphicon glyphicon-search"></span> FAQ</li>
-						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'homePages/question.html';"><span class="glyphicon glyphicon-question-sign"></span> Submit a Question</li>
-						<li button type="button1" class="btn nav-button nav-button-hover" onclick="location.href = 'homePages/contactUs.html';"><span class="glyphicon glyphicon-globe"></span> Contact Us</li>
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" data-toggle="modal" data-target="#popUpUnderConstruction"><span class="glyphicon glyphicon-search"></span> FAQ</li>
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" data-toggle="modal" data-target="#popUpUnderConstruction"><span class="glyphicon glyphicon-question-sign"></span> Submit a Question</li>
+						<li button type="button1" class="btn nav-button nav-button-hover" data-toggle="modal" data-target="#popUpUnderConstruction"><span class="glyphicon glyphicon-globe"></span> Contact Us</li>
 
 
 					</ul>
@@ -173,6 +173,31 @@
 				<!-- /.row -->
 			</div>
 			<!-- /.container-fluid -->
+            
+            <!-- Under Construction Dialog Message -->
+            <div class="modal fade" id="popUpUnderConstruction" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                      
+                      <!-- Title of Under Construction Dialog -->
+                      <div class="modal-header text-center">
+                          <h4 class="modal-title w-100 font-weight-bold">Page Under Construction</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+
+                      <!-- Body of Under Construction Dialog -->
+                      <div class="modal-body mx-3">
+                          <div class="md-form mb-5">
+                              <i class="fa fa-envelope prefix grey-text"></i>
+                              <label data-error="wrong" data-success="right"><strong><u>Oops, this page is under construction!</u></strong></label>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div> <!-- /Under Construction Dialog Message -->
+            
 		</div>
 		<!-- /#page-wrapper -->
 
