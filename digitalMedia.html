@@ -34,17 +34,17 @@
 				<div class="sidenavText">
 					<a href="index.html">Home</a>
 					<a href="softDev.html" style="font-size: 1.2em">Software Development</a>
-					<ul>
-						<a href="softDev.html" style="font-size: 1em">Resources</a>
+					<a href="digitalMedia.html" style="font-size: 1.2em">Digital Media</a>
+                    <ul>
+						<a href="digitalMedia.html" style="font-size: 1em">Resources</a>
 						<a href="digitalMedia/dmCareerOptions.html" style="font-size: 1em">Career Options</a>
 						<a href="digitalMedia/dmEssentialSkills.html" style="font-size: 1em">Essential Skills</a>
-						<a href="homePages/quiz.html" style="font-size: 1em">Expected Outcomes</a>
-						<a href="homePages/quiz.html" style="font-size: 1em">Major Requirements</a>
-						<a href="homePages/quiz.html" style="font-size: 1em">Certificates</a>
+						<a data-toggle="modal" data-target="#popUpUnderConstruction" style="font-size: 1em">Expected Outcomes</a>
+						<a data-toggle="modal" data-target="#popUpUnderConstruction" style="font-size: 1em">Major Requirements</a>
+						<a data-toggle="modal" data-target="#popUpUnderConstruction" style="font-size: 1em">Certificates</a>
 					</ul>
-					<a href="digitalMedia.html" style="font-size: 1.2em">Digital Media</a>
-					<a href="homePages/quiz.html" style="font-size: 1.2em">System and Security</a>
-					<a href="homePages/quiz.html" style="font-size: 1.2em">Enterprise Systems</a>
+					<a href="systemsSecurity.html" style="font-size: 1.2em">System and Security</a>
+					<a href="enterpriseSystem.html" style="font-size: 1.2em">Enterprise Systems</a>
 				</div>
 			</div>
 			<!-- Use any element to open the sidenav -->
@@ -75,7 +75,7 @@
 						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'index.html';"><span class="glyphicon glyphicon-home"></span> Home</li>
 						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'softDev.html';"><span class="
 						glyphicon glyphicon-edit"></span> Software Development</li>
-						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'digitalMedia.html';"><span class="glyphicon glyphicon-search"></span> Digital media</li>
+						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'digitalMedia.html';"><span class="glyphicon glyphicon-search"></span> Digital Media</li>
 						<ul>
 							<li button type="button1" class="btn btn-blue nav-button-green" style="font-weight: bold; text-align: left" onclick="location.href = 'digitalMedia.html';"><span class="glyphicon glyphicon-search"></span> Resources</li>
 
@@ -83,11 +83,11 @@
 
 							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'digitalMedia/dmEssentialSkills.html'"><span class="glyphicon glyphicon-search"></span> Essential Skills</li>
 
-							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'homePages/quiz.html';"><span class="glyphicon glyphicon-search"></span> Expected Outcomes</li>
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" data-toggle="modal" data-target="#popUpUnderConstruction"><span class="glyphicon glyphicon-search"></span> Expected Outcomes</li>
 
-							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'homePages/quiz.html';"><span class="glyphicon glyphicon-search"></span> Major Requirements</li>
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" data-toggle="modal" data-target="#popUpUnderConstruction"><span class="glyphicon glyphicon-search"></span> Major Requirements</li>
 
-							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'homePages/quiz.html';"><span class="glyphicon glyphicon-search"></span> Certificates</li>
+							<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" data-toggle="modal" data-target="#popUpUnderConstruction"><span class="glyphicon glyphicon-search"></span> Certificates</li>
 						</ul>
 						<li button type="button1" class="btn btn-blue nav-button-hover" style="font-weight: bold; text-align: left" onclick="location.href = 'systemsSecurity.html';"><span class="glyphicon glyphicon-question-sign"></span> System and Security</li>
 						<li button type="button1" class="btn nav-button nav-button-hover" onclick="location.href = 'enterpriseSystem.html';"><span class="glyphicon glyphicon-globe"></span> Enterprise Systems</li>
@@ -304,10 +304,33 @@
 					</div>
 				</div>
 
-
-
 			</div>
 			<!-- /.container-fluid -->
+            
+            <!-- Under Construction Dialog Message -->
+            <div class="modal fade" id="popUpUnderConstruction" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                      
+                      <!-- Title of Under Construction Dialog -->
+                      <div class="modal-header text-center">
+                          <h4 class="modal-title w-100 font-weight-bold">Page Under Construction</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+
+                      <!-- Body of Under Construction Dialog -->
+                      <div class="modal-body mx-3">
+                          <div class="md-form mb-5">
+                              <i class="fa fa-envelope prefix grey-text"></i>
+                              <label data-error="wrong" data-success="right"><strong><u>Oops, this page is under construction!</u></strong></label>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div> <!-- /Under Construction Dialog Message -->
+            
 		</div>
 		<!-- /#page-wrapper -->
 
