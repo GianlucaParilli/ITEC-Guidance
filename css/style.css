@@ -326,9 +326,10 @@ Source: https://stackoverflow.com/questions/42792108/bootstrap-thumbnails-same-s
 
 .panel-heading {
 	border: 1px solid #ddd;
-	background: linear-gradient(darkgreen, lightgreen);
+	background: linear-gradient(seagreen, mediumseagreen);
 	word-wrap: break-word;
 	color: ghostwhite;
+	border-radius: 7px;
 	text-shadow: 2px 1.5px 0.2px #000;
 	letter-spacing: 0.7px;
 }
